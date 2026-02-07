@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Courses - nitwallah DevOps Training</title>
+   <meta name="description" content="Professional DevOps, SRE, Platform Engineering and DevSecOps training courses at nitwallah.">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+   <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   <style>
+      :root {
+         --primary-color: #0052cc;
+         --secondary-color: #1a73e8;
+      }
+      body { font-family: 'Inter', sans-serif; color: #333; }
+      h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; font-weight: 700; }
+      .course-card { transition: transform 0.3s, box-shadow 0.3s; }
+      .course-card:hover { transform: translateY(-10px); box-shadow: 0 10px 30px rgba(0,0,0,0.15) !important; }
+   </style>
+</head>
+<body>
+   <!-- Header -->
+   <header style="background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 100;">
+      <div class="container-lg py-3">
+         <nav class="navbar navbar-expand-lg navbar-light w-100">
+            <a class="navbar-brand" href="index.html" style="font-size: 24px; font-weight: 700; color: var(--primary-color);">
+               <i class="fas fa-cloud"></i> nitwallah
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+               <ul class="navbar-nav ms-auto align-items-center gap-3">
+                  <li class="nav-item"><a class="nav-link" href="index.html" style="color: #333;">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="about.html" style="color: #333;">About</a></li>
+                  <li class="nav-item"><a class="nav-link" href="services.html" style="color: var(--primary-color); font-weight: 600;">Courses</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contact.html" style="color: #333;">Contact</a></li>
+                  <li class="nav-item">
+                     <a href="tel:+919492629402" class="btn btn-primary" style="background: var(--primary-color); color: white;">+91 9492629402</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+   </header>
+
+   <!-- Page Title -->
+   <section style="background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%); color: white; padding: 60px 0; text-align: center;">
+      <div class="container-lg">
+         <h1 style="font-size: 44px; margin-bottom: 10px;">Professional Courses</h1>
+         <p style="font-size: 18px; opacity: 0.9;">Industry-Focused Training Programs for DevOps, SRE, and Cloud Platforms</p>
+      </div>
+   </section>
+
+   <!-- Courses -->
+   <section style="padding: 100px 0; background: #f8f9fa;">
+      <div class="container-lg">
+         <div class="row g-4">
+            <!-- Course 1: AWS DevOps -->
+            <div class="col-md-6 col-lg-4">
+               <div class="course-card" style="background: white; border-radius: 12px; padding: 40px 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border: 1px solid #e9ecef; height: 100%;">
+                  <div style="font-size: 48px; margin-bottom: 15px;color: var(--primary-color);"><i class="fab fa-aws"></i></div>
+                  <h3 style="font-size: 22px; margin-bottom: 10px;">AWS DevOps</h3>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 20px; line-height: 1.6;">
+                     Master AWS-based DevOps with comprehensive coverage of Linux, cloud services, containers, and CI/CD
+                  </p>
+                  <ul style="list-style: none; padding: 0; margin-bottom: 25px;">
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i><strong>AWS Cloud Services:</strong> EC2, VPC, Networking</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>S3, EBS, CloudFront (Storage & CDN)</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>RDS, DynamoDB, ElastiCache (Databases)</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>IAM, Secrets Manager, KMS (Security & Identity)</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>SQS, SNS, EventBridge (Messaging & Events)</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>CodeArtifact, ECR, CloudFormation (IaC)</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>Linux Admin & Shell Scripting</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>Git & Version Control Systems</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>Docker & ECR (In-Depth)</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>Kubernetes & EKS (In-Depth)</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>Jenkins & GitHub Actions (In-Depth)</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>SonarQube & Code Quality Tools</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>Security Tools & Vulnerability Scanning</li>
+                     <li style="color: #666; font-size: 13px;"><i class="fas fa-check" style="color: var(--primary-color); margin-right: 8px;"></i>AWS CodePipeline & CodeDeploy | Real-world Project</li>
+                  </ul>
+                  <a href="contact.html" class="btn btn-primary" style="width: 100%; background: var(--primary-color); color: white; border: none;">Enroll Now</a>
+               </div>
+            </div>
+
+            <!-- Course 2: GCP DevOps -->
+            <div class="col-md-6 col-lg-4">
+               <div class="course-card" style="background: white; border-radius: 12px; padding: 40px 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border: 1px solid #e9ecef; height: 100%;">
+                  <div style="font-size: 48px; margin-bottom: 15px; color: #ea4335;"><i class="fab fa-google"></i></div>
+                  <h3 style="font-size: 22px; margin-bottom: 10px;">GCP DevOps</h3>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 20px; line-height: 1.6;">
+                     Learn GCP with comprehensive DevOps tools, containers, CI/CD, and security in-depth
+                  </p>
+                  <ul style="list-style: none; padding: 0; margin-bottom: 25px;">
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ea4335; margin-right: 8px;"></i><strong>GCP Cloud Services:</strong> Compute Engine, VPC</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ea4335; margin-right: 8px;"></i>Cloud Storage (GCS), Cloud CDN, Cloud Armor</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ea4335; margin-right: 8px;"></i>Cloud SQL, Firestore, Spanner (Databases)</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ea4335; margin-right: 8px;"></i>IAM, Secret Manager, VPC Service Controls</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ea4335; margin-right: 8px;"></i>Pub/Sub, Cloud Tasks, Cloud Scheduler</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ea4335; margin-right: 8px;"></i>Artifact Registry, Deployment Manager</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ea4335; margin-right: 8px;"></i>Linux Admin & Shell Scripting</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ea4335; margin-right: 8px;"></i>Git & Collaborative Development</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ea4335; margin-right: 8px;"></i>Docker & Artifact Registry (In-Depth)</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ea4335; margin-right: 8px;"></i>Kubernetes & GKE (Advanced Topics)</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ea4335; margin-right: 8px;"></i>Jenkins & GitHub Actions (In-Depth)</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ea4335; margin-right: 8px;"></i>SonarQube & Code Quality Management</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ea4335; margin-right: 8px;"></i>Security Tools & Compliance (In-Depth)</li>
+                     <li style="color: #666; font-size: 13px;"><i class="fas fa-check" style="color: #ea4335; margin-right: 8px;"></i>Cloud Build & Cloud Deployment | Hands-on Labs</li>
+                  </ul>
+                  <a href="contact.html" class="btn btn-primary" style="width: 100%; background: #ea4335; color: white; border: none;">Enroll Now</a>
+               </div>
+            </div>
+
+            <!-- Course 3: Multi-Cloud DevOps -->
+            <div class="col-md-6 col-lg-4">
+               <div class="course-card" style="background: white; border-radius: 12px; padding: 40px 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border: 1px solid #e9ecef; height: 100%;">
+                  <div style="font-size: 48px; margin-bottom: 15px; color: #ff6b35;"><i class="fas fa-layer-group"></i></div>
+                  <h3 style="font-size: 22px; margin-bottom: 10px;">Multi-Cloud DevOps</h3>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 20px; line-height: 1.6;">
+                     Master managing applications across AWS, GCP, Azure and on-premises infrastructure
+                  </p>
+                  <ul style="list-style: none; padding: 0; margin-bottom: 25px;">
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ff6b35; margin-right: 8px;"></i><strong>AWS Services:</strong> EC2, VPC, S3, RDS, IAM</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ff6b35; margin-right: 8px;"></i><strong>GCP Services:</strong> Compute, GCS, Cloud SQL, IAM</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ff6b35; margin-right: 8px;"></i><strong>Azure Services:</strong> VMs, Storage, CosmosDB, RBAC</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ff6b35; margin-right: 8px;"></i>Multi-Cloud Architecture Design & Best Practices</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ff6b35; margin-right: 8px;"></i>Terraform Multi-Cloud Automation (In-Depth)</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ff6b35; margin-right: 8px;"></i>Kubernetes Across Multiple Cloud Platforms</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ff6b35; margin-right: 8px;"></i>Unified CI/CD Pipeline across Clouds</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ff6b35; margin-right: 8px;"></i>Cost Optimization & Multi-Cloud Governance</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ff6b35; margin-right: 8px;"></i>Linux, Git, Docker, Jenkins, GitHub Actions</li>
+                     <li style="color: #666; font-size: 13px;"><i class="fas fa-check" style="color: #ff6b35; margin-right: 8px;"></i>SonarQube, Security Tools & Real-World Project</li>
+                  </ul>
+                  <a href="contact.html" class="btn btn-primary" style="width: 100%; background: #ff6b35; color: white; border: none;">Enroll Now</a>
+               </div>
+            </div>
+
+            <!-- Course 4: SRE (Site Reliability Engineering) -->
+            <div class="col-md-6 col-lg-4">
+               <div class="course-card" style="background: white; border-radius: 12px; padding: 40px 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border: 1px solid #e9ecef; height: 100%;">
+                  <div style="font-size: 48px; margin-bottom: 15px; color: #00d4ff;"><i class="fas fa-heartbeat"></i></div>
+                  <h3 style="font-size: 22px; margin-bottom: 10px;">SRE (Site Reliability)</h3>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 20px; line-height: 1.6;">
+                     Learn Site Reliability Engineering practices for building robust, scalable systems
+                  </p>
+                  <ul style="list-style: none; padding: 0; margin-bottom: 25px;">
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #00d4ff; margin-right: 8px;"></i>SLO, SLI, and Error Budgets</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #00d4ff; margin-right: 8px;"></i>Monitoring, Logging & Alerting</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #00d4ff; margin-right: 8px;"></i>Incident Management & On-Call</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #00d4ff; margin-right: 8px;"></i>Infrastructure Automation</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #00d4ff; margin-right: 8px;"></i>Chaos Engineering & Resilience</li>
+                     <li style="color: #666; font-size: 13px;"><i class="fas fa-check" style="color: #00d4ff; margin-right: 8px;"></i>SRE Practices in Production</li>
+                  </ul>
+                  <a href="contact.html" class="btn btn-primary" style="width: 100%; background: #00d4ff; color: white; border: none;">Enroll Now</a>
+               </div>
+            </div>
+
+            <!-- Course 5: Platform Engineering -->
+            <div class="col-md-6 col-lg-4">
+               <div class="course-card" style="background: white; border-radius: 12px; padding: 40px 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border: 1px solid #e9ecef; height: 100%;">
+                  <div style="font-size: 48px; margin-bottom: 15px; color: #7c00ff;"><i class="fas fa-cubes"></i></div>
+                  <h3 style="font-size: 22px; margin-bottom: 10px;">Platform Engineering</h3>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 20px; line-height: 1.6;">
+                     Build and manage internal platforms for developers using modern tools and practices
+                  </p>
+                  <ul style="list-style: none; padding: 0; margin-bottom: 25px;">
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #7c00ff; margin-right: 8px;"></i>Internal Developer Platform (IDP)</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #7c00ff; margin-right: 8px;"></i>Service Mesh & API Gateway</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #7c00ff; margin-right: 8px;"></i>Self-Service Deployment</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #7c00ff; margin-right: 8px;"></i>Developer Experience Tools</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #7c00ff; margin-right: 8px;"></i>GitOps & Infrastructure Automation</li>
+                     <li style="color: #666; font-size: 13px;"><i class="fas fa-check" style="color: #7c00ff; margin-right: 8px;"></i>Platform Governance & Compliance</li>
+                  </ul>
+                  <a href="contact.html" class="btn btn-primary" style="width: 100%; background: #7c00ff; color: white; border: none;">Enroll Now</a>
+               </div>
+            </div>
+
+            <!-- Course 6: DevSecOps -->
+            <div class="col-md-6 col-lg-4">
+               <div class="course-card" style="background: white; border-radius: 12px; padding: 40px 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border: 1px solid #e9ecef; height: 100%;">
+                  <div style="font-size: 48px; margin-bottom: 15px; color: #ff6b6b;"><i class="fas fa-shield-alt"></i></div>
+                  <h3 style="font-size: 22px; margin-bottom: 10px;">DevSecOps</h3>
+                  <p style="color: #666; font-size: 14px; margin-bottom: 20px; line-height: 1.6;">
+                     Integrate security into DevOps pipelines with modern security tools and practices
+                  </p>
+                  <ul style="list-style: none; padding: 0; margin-bottom: 25px;">
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ff6b6b; margin-right: 8px;"></i>Secure Code Development</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ff6b6b; margin-right: 8px;"></i>SAST & DAST Tools Integration</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ff6b6b; margin-right: 8px;"></i>Container & Image Scanning</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ff6b6b; margin-right: 8px;"></i>Secrets Management & Vault</li>
+                     <li style="color: #666; font-size: 13px; margin-bottom: 10px;"><i class="fas fa-check" style="color: #ff6b6b; margin-right: 8px;"></i>Compliance & Policy Automation</li>
+                     <li style="color: #666; font-size: 13px;"><i class="fas fa-check" style="color: #ff6b6b; margin-right: 8px;"></i>Security in Production Environments</li>
+                  </ul>
+                  <a href="contact.html" class="btn btn-primary" style="width: 100%; background: #ff6b6b; color: white; border: none;">Enroll Now</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- Why Learn These Courses -->
+   <section style="padding: 80px 0; background: white;">
+      <div class="container-lg">
+         <h2 style="text-align: center; font-size: 36px; margin-bottom: 50px;">Why These Specializations?</h2>
+         <div class="row g-4">
+            <div class="col-md-6">
+               <div style="padding: 25px; background: #f8f9fa; border-radius: 8px;">
+                  <h4 style="color: var(--primary-color); margin-bottom: 10px;"><i class="fas fa-briefcase"></i> Career Growth</h4>
+                  <p style="color: #666; font-size: 14px; margin: 0;">Each specialization opens doors to high-paying roles in leading tech companies. Choose your path based on your career goals.</p>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div style="padding: 25px; background: #f8f9fa; border-radius: 8px;">
+                  <h4 style="color: #ea4335; margin-bottom: 10px;"><i class="fas fa-graduation-cap"></i> Industry Demand</h4>
+                  <p style="color: #666; font-size: 14px; margin: 0;">These are the most sought-after roles in the industry with 95% of our graduates getting placed in 2-3 months.</p>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div style="padding: 25px; background: #f8f9fa; border-radius: 8px;">
+                  <h4 style="color: #ff6b35; margin-bottom: 10px;"><i class="fas fa-code"></i> Practical Learning</h4>
+                  <p style="color: #666; font-size: 14px; margin: 0;">All courses include hands-on projects, real-world scenarios, and industry best practices. Learn by doing!</p>
+               </div>
+            </div>
+            <div class="col-md-6">
+               <div style="padding: 25px; background: #f8f9fa; border-radius: 8px;">
+                  <h4 style="color: #00d4ff; margin-bottom: 10px;"><i class="fas fa-handshake"></i> Job Support</h4>
+                  <p style="color: #666; font-size: 14px; margin: 0;">Lifetime job support, interview preparation, and placement assistance from Mr. Gopi and our team.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- CTA Section -->
+   <section style="background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%); color: white; padding: 80px 0; text-align: center;">
+      <div class="container-lg">
+         <h2 style="font-size: 36px; margin-bottom: 20px;">Ready to Start Your Journey?</h2>
+         <p style="font-size: 18px; margin-bottom: 30px; opacity: 0.95;">Choose a specialization and transform your career with industry-leading DevOps training</p>
+         <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+            <a href="contact.html" class="btn btn-light" style="color: var(--primary-color); padding: 12px 30px; font-weight: 600;">Enroll Now</a>
+            <a href="tel:+919492629402" class="btn btn-outline-light" style="color: white; border-color: white; padding: 12px 30px; font-weight: 600;">Call Us</a>
+         </div>
+      </div>
+   </section>
+
+   <!-- Footer -->
+   <footer style="background: #1a1a1a; color: white; padding: 40px 0 15px;">
+      <div class="container-lg">
+         <div class="row g-4 mb-4">
+            <div class="col-md-3">
+               <h5 style="font-size: 16px; margin-bottom: 15px;">About nitwallah</h5>
+               <p style="font-size: 13px; color: #aaa;">Professional DevOps training by Mr. Gopi with 1000+ successful students and 95% placement rate.</p>
+            </div>
+            <div class="col-md-3">
+               <h5 style="font-size: 16px; margin-bottom: 15px;">Quick Links</h5>
+               <ul style="list-style: none; padding: 0; margin: 0;">
+                  <li><a href="index.html" style="font-size: 13px; color: #aaa; text-decoration: none;">Home</a></li>
+                  <li><a href="about.html" style="font-size: 13px; color: #aaa; text-decoration: none;">About Us</a></li>
+                  <li><a href="services.html" style="font-size: 13px; color: #aaa; text-decoration: none;">Courses</a></li>
+                  <li><a href="contact.html" style="font-size: 13px; color: #aaa; text-decoration: none;">Contact</a></li>
+               </ul>
+            </div>
+            <div class="col-md-3">
+               <h5 style="font-size: 16px; margin-bottom: 15px;">Contact Info</h5>
+               <p style="font-size: 13px; color: #aaa; margin-bottom: 5px;"><i class="fas fa-phone"></i> +91 9492629402</p>
+               <p style="font-size: 13px; color: #aaa; margin-bottom: 5px;"><i class="fas fa-envelope"></i> gopi199503@gmail.com</p>
+               <p style="font-size: 13px; color: #aaa;"><i class="fas fa-map-marker-alt"></i> Hyderabad</p>
+            </div>
+            <div class="col-md-3">
+               <h5 style="font-size: 16px; margin-bottom: 15px;">Follow Us</h5>
+               <div style="display: flex; gap: 10px;">
+                  <a href="#" style="display: inline-flex; align-items: center; justify-content: center; width: 35px; height: 35px; background: #333; color: white; border-radius: 50%; text-decoration: none;">
+                     <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" style="display: inline-flex; align-items: center; justify-content: center; width: 35px; height: 35px; background: #333; color: white; border-radius: 50%; text-decoration: none;">
+                     <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" style="display: inline-flex; align-items: center; justify-content: center; width: 35px; height: 35px; background: #333; color: white; border-radius: 50%; text-decoration: none;">
+                     <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="#" style="display: inline-flex; align-items: center; justify-content: center; width: 35px; height: 35px; background: #333; color: white; border-radius: 50%; text-decoration: none;">
+                     <i class="fab fa-whatsapp"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div style="border-top: 1px solid #333; padding-top: 20px; text-align: center; color: #999; font-size: 14px;">
+            <p style="margin: 0;">© 2024 nitwallah. All Rights Reserved. | Professional DevOps Training by Mr. Gopi</p>
+         </div>
+      </div>
+   </footer>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
